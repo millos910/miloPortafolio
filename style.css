@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo+2:ital,wght@1,200&family=IBM+Plex+Sans:wght@300&family=Pangolin&family=Roboto+Mono:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+#inicio{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url('https://www.unotv.com/uploads/2022/09/programador-170409.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#inicio .contenido header{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top:0;
+}
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: aquamarine;
+}
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: #908080;
+}
+.redes a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+a:hover{
+    color: #ffff;
+}
+
+#inicio .contenido .presetation{
+    max-width: 1100px;
+    height:100vh;
+    margin: auto;
+    columns: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bienvenida{
+    font-size: 16px;
+    margin: 20px;
+    text-transform:uppercase ;
+    letter-spacing: 5px;
+}
+.presetation h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.presetation h2 span{
+    font-size: 30px;
+    color: #d45252;
+}
+.presetation.description{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+.presetation a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border:2px  solid#ffff;
+    border-radius: 50px;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+}
+.presetation a:hover{
+    background-color: #d45252;
+}
+#icono-nav{
+    color: #ffffff;
+    display: flex;
+}
+
