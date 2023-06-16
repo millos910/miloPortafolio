@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Exo 2', sans-serif;
-    color: white;
 }
 html{
     scroll-behavior: smooth;
@@ -29,6 +28,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    color: white;
 }
 #inicio .contenido header .contenido-header h1{
     text-align: center;
@@ -38,6 +38,7 @@ html{
     list-style: none;
     display: flex;
     align-items: center;
+    color: white;
 }
 #inicio .contenido header .contenido-header nav ul li a{
     text-decoration: none;
@@ -45,6 +46,7 @@ html{
     margin: 0 12px;
     font-weight: 400;
     transition: 0.5s;
+    color: white;
 }
 #inicio .contenido header .contenido-header nav ul a:hover{
     color: #908080;
@@ -69,17 +71,20 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 .bienvenida{
     font-size: 16px;
     margin: 20px;
     text-transform:uppercase ;
     letter-spacing: 5px;
+    color: white;
 }
 .presetation h2{
     font-size: 55px;
     margin-bottom: 25px;
     text-align: center;
+    color: white;
 }
 .presetation h2 span{
     font-size: 30px;
@@ -111,4 +116,31 @@ a:hover{
     color: #ffffff;
     display: flex;
 }
+#sobremi{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: black;
+    display: flex;
+}
+#sobremi .contenedor-foto{
+    max-width: 400px;
+    margin-right: 80px;
 
+}
+#sobremi .contenedor-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 2em;
+    background-color: #f3f3f3;
+}
+#sobremi .sobremi{
+    margin: 0.4px;
+}
+#sobremi .sobremi .titulo-seccion-sobre-mi{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration: #000;
+    
+}
