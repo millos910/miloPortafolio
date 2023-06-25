@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0,user-scalable=no, shrink-to-fit=no'>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="Style.css">
     <title>Cv Millos</title>
@@ -16,14 +16,14 @@
                 <h1>Millos</h1>
                 <nav id="nav">
                     <ul id="links">
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#sobremi">Sobre mi</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#portafolio">Portafolio</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#inicio" onclick="seleccionar(this)">Inicio</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
+                        <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                        <li><a href="#portafolio" onclick="seleccionar(this)">Portafolio</a></li>
+                        <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
                     </ul>
                 </nav>
-        <div id="icon-nav">
+        <div id="icon-nav" onclick="responsiveMenu()">
             <box-icon name='menu'></box-icon>
         </div>
         <div class="redes">
@@ -203,6 +203,17 @@
 
 
 
+
 </section>
+<footer>
+    <p>todos los derechos reservados a Emilio Montero - 2023</p>
+    <div class="redes">
+        <a href="#in"><box-icon type='logo' name='linkedin' color="red"></box-icon></a>
+        <a href="#insta"><box-icon name='instagram' type='logo' color='yellow' ></box-icon></a>
+        <a href="#twitter"><box-icon name='twitter' type='logo' color='blue' ></box-icon></a>
+        <a href="#youtube"><box-icon name='youtube' type='logo' color='red' ></box-icon></a>
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
